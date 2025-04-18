@@ -25,18 +25,25 @@ git clone https://github.com/hidecry/random-tags.git
 cd random-tags
 ```
 
-2. Instale as dependências:
-```bash
-npm install
-```
 
 ## 🎮 Como usar
+
+### Método 1: Usando o arquivo .bat (Recomendado para Windows)
 
 1. Abra o arquivo `index.js`
 2. Substitua o token do Discord pelo seu:
 ```javascript
 const token = 'SEU_TOKEN_AQUI';
 ```
+
+3. Dê um duplo clique no arquivo `start.bat`
+   - O script verificará automaticamente se o Node.js está instalado
+   - Instalará as dependências necessárias
+   - Iniciará o programa
+
+### Método 2: Usando o terminal
+
+1. Abra o arquivo `index.js`
 
 3. Execute o script:
 ```bash
