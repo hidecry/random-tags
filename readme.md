@@ -54,8 +54,7 @@ node index.js
 
 Você pode personalizar o comportamento do script ajustando os seguintes parâmetros:
 
-- `interval`: Tempo entre as trocas de badge (padrão: 5000ms)
-- `rateLimitDelay`: Delay inicial para rate limits (padrão: 1000ms)
+- `interval`: Tempo entre as trocas de badge (padrão: 10000ms)
 - `maxRetries`: Número máximo de tentativas (padrão: 3)
 
 ## ⚠️ Limitações
